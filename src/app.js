@@ -40,7 +40,8 @@ app.get('/about', (req, res) => {
 app.get('/help', (req, res) => {
     res.render('help', {
         message: 'Use /weather to get the latest forecast',
-        title: 'Help'
+        title: 'Help',
+        name: 'Zeyad'
     })
 })
 
